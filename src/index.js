@@ -1,5 +1,5 @@
-module.exports = function reverse (n) {
-  if(n < 0) n *= -1;
-    let n = num.toString();
-    return num.split('').reverse().join('');
+module.exports = function reverse (num) {
+  if(num < 0) num *= -1;
+  let  n = num.toString();
+    return n.split('').reverse().join('');
 }
